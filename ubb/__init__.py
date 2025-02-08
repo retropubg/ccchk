@@ -16,7 +16,7 @@ API_HASH = os.getenv('API_HASH', CONFIG['api_hash'])
 DUMP_ID = os.getenv('DUMP_ID', CONFIG['dump_id'])
 STRING_SESSION = os.getenv('STRING_SESSION', CONFIG['string_session'])
 
-Ubot = TelegramClient(StringSession(STRING_SESSION),
+Ubot = TelegramClient(StringSession('AQGNZjAAdMbax-pTI7YPEhNmELkkfqoAFvtfIZHzgt-fSp_58726NLA70cQ9U25SwfMQBwVT829xp6xmQmxtFuV1_96c0qsjYj2HJCo25SlD54dn_Su5HDaf_OTDBsKAlW2nPo4wsOpHEbNfiEedclj9wuj6S97f3AZnajoIBP-z1Xf5-PmgUaaV6qms7rip6bLY-TjJLrtmT_R-JUcwU8dOHNHEAGVuQoRiikEex5TcVEdnXdnSBP7su6k2XcF4bJYDYq7juEa9Ovka8K_IZxbCc4Ll170bTdHt52OYafSfaX5taC_eFFWHWi1eLjxBhBB_SNeckxK9bC5sV-mKFyxnmQLlkAAAAAHP0O-hAA'),
                       API_ID,
                       API_HASH,
                       auto_reconnect=False,
