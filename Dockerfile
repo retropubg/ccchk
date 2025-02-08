@@ -1,10 +1,13 @@
-FROM python:3.11-slim-buster
-ENV VIRTUAL_ENV=/opt/venv
-RUN python3 -m venv $VIRTUAL_ENV
-ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-WORKDIR /app
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+FROM encodev/onrender:2024.03.05
+
+WORKDIR /usr/src/app
+
+RUN chmod 777 /usr/src/app
+
 COPY . .
-EXPOSE 5000
-CMD ["python3", "-m", "ubb"]
+
+RUN pip3 install --no-cache-dir -r requirements.txt \
+    && pip cache purge \
+    && rm -rf .git* Dockerfile requirements.txt
+
+CMD ["bash", "onrender.sh"]
