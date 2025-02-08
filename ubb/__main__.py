@@ -11,7 +11,7 @@ for module_name in ALL_MODULES:
 
 
 
-@client.on(events.NewMessage(pattern="/alive"))
+Ubot.on(events.NewMessage(pattern="/alive"))
 async def alive(event):
     await event.reply("Yes, I'm alive!")
 
