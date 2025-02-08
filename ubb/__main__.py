@@ -16,7 +16,7 @@ async def main():
         print('Your bot is alive .alive to check\n'
               '.help to check command list\n'
               '(Press Ctrl+C to stop this)')
-        await Ubot.run_until_disconnected()
+        Ubot.run_until_disconnected()
         
 
 if __name__ == '__main__':
