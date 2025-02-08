@@ -13,9 +13,9 @@ for module_name in ALL_MODULES:
 
 
 async def main():
-    await Ubot.start()
+ Ubot.start()
     print("Bot is running...")
-    await Ubot.run_until_disconnected()
+ Ubot.run_until_disconnected()
 
 if __name__ == "__main__":
     asyncio.run(main())
