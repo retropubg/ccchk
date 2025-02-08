@@ -17,7 +17,7 @@ DUMP_ID = os.getenv('DUMP_ID', CONFIG['dump_id'])
 STRING_SESSION = os.getenv('STRING_SESSION', CONFIG['string_session'])
 
 # Ensure the session string is in quotes
-session_string = "1AZWarzsBux0cAwohXalqVXlck2QmUAPtpPcv4bhoxuDJoHPn1sDFsDsGwH-yU4MQgE0_0kXx_OpnUhwY2ZDhkEBEUtuzm-zcPBHqMviPAxK8JJ0X1fQP6RWG3LN41Y2QeTPvh9zMe9Pb27KewmYH-WXaOf_uxrcEIhLsHnYvHGwZ-oUgq0mz_6blnkd6RJZoY28l1M41ELmTzNclA-B7BXnG40MKQMdKMvd2JaDNxkVTOEpmGGaHELcqK-86JviXUXtc7kKopXBMtQTcZ8ybmmGnzzLKAZA1WqXqHbDhEqH4gOkxG5E8e8L0Ul2IknEgqMxCVartXI-InIigIedXcpkD6kRarwE="
+session_string = "1AZWarzoBuzNJWNorfHYXZ90MdAnfUQCm4iCKKJljv-0nPTy0uIU7ybVpkT-2xRQIgV8uJ9zFyJ_ZAWKywRifGqAZQNh_usm2nLRV9e5KLADI-jgqlOeuh2fv1OZyS0M9F80GlaZLyxIsro3x3e4AZYeV9iExgCo4DRACblvsZu2eVxl-32tBOkZjzZhslRpBke5a2nHs8BvNuU8u66LktQVXJzXCWknfDuEBohJLP7I2sFcymkDPRcC3b_4bJfSUk6w9rFVC23wVM5pDllecTL9mE9lieDrTa2JpU9a9pzROWtpEwfIgWlfYz1-wlxEz-t2bIij1XXOR4EFikia6LYhP_kzn-so="
 
 # Correctly initialize the TelegramClient
 Ubot = TelegramClient(StringSession(session_string), 26043952, "96b8dea447ef580b5b75b01ccc3ab710", auto_reconnect=False)
