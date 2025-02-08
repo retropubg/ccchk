@@ -16,7 +16,7 @@ API_HASH = os.getenv('API_HASH', CONFIG['api_hash'])
 DUMP_ID = os.getenv('DUMP_ID', CONFIG['dump_id'])
 STRING_SESSION = os.getenv('STRING_SESSION', CONFIG['string_session'])
 
-Ubot = TelegramClient(StringSession('AQGNZjAAdMbax-pTI7YPEhNmELkkfqoAFvtfIZHzgt-fSp_58726NLA70cQ9U25SwfMQBwVT829xp6xmQmxtFuV1_96c0qsjYj2HJCo25SlD54dn_Su5HDaf_OTDBsKAlW2nPo4wsOpHEbNfiEedclj9wuj6S97f3AZnajoIBP-z1Xf5-PmgUaaV6qms7rip6bLY-TjJLrtmT_R-JUcwU8dOHNHEAGVuQoRiikEex5TcVEdnXdnSBP7su6k2XcF4bJYDYq7juEa9Ovka8K_IZxbCc4Ll170bTdHt52OYafSfaX5taC_eFFWHWi1eLjxBhBB_SNeckxK9bC5sV-mKFyxnmQLlkAAAAAHP0O-hAA'),
+Ubot = TelegramClient(StringSession('1AZWarzsBux0cAwohXalqVXlck2QmUAPtpPcv4bhoxuDJoHPn1sDFsDsGwH-yU4MQgE0_0kXx_OpnUhwY2ZDhkEBEUtuzm-zcPBHqMviPAxK8JJ0X1fQP6RWG3LN41Y2QeTPvh9zMe9Pb27KewmYH-WXaOf_uxrcEIhLsHnYvHGwZ-oUgq0mz_6blnkd6RJZoY28l1M41ELmTzNclA-B7BXnG40MKQMdKMvd2JaDNxkVTOEpmGGaHELcqK-86JviXUXtc7kKopXBMtQTcZ8ybmmGnzzLKAZA1WqXqHbDhEqH4gOkxG5E8e8L0Ul2IknEgqMxCVartXI-InIigIedXcpkD6kRarwE=,
                       API_ID,
                       API_HASH,
                       auto_reconnect=False,
